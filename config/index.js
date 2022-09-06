@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "otBft6gGjheUE3XCnWoYn6nY_f9U",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "fn65_yUcM0F0WlyODyKH17O87b7ZYENJqGpR8dE-BMA",
+      useTemplateId: "iN7qeSwsOQbzb1wJnPr2TmTN9638KBJKfEUqQkAhyC0",
       // 所在省份
       province: "浙江",
       // 所在城市
@@ -44,7 +44,7 @@ export const config = {
       openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E6%B5%99%E6%B1%9F%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94&srcid=4982"
     }, 
     {
-      name: "老婆1", 
+      name: "1", 
       id: "",
       useTemplateId: "",
       province: "",
@@ -52,7 +52,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆2",
+      name: "2",
       id: "",
       useTemplateId: "",
       province: "",
@@ -60,7 +60,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆3", 
+      name: "3", 
       id: "",
       useTemplateId: "",
       province: "",
@@ -111,7 +111,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 3,
 
   /** 日期相关 */
 
@@ -139,21 +139,9 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "非玄非奥，非浅非深，一个妙道，着意搜寻"}
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
-  ],
 
-  /** 每日一言 */
-
-  // 好文节选的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
-
+  ]
 
 }
