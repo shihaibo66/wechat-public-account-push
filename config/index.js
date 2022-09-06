@@ -132,9 +132,9 @@ export const config = {
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
   SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
+    // 每次发送这句话
     {"keyword": "encourage_oneself", contents: "记得买早餐！！"},
-    // 这样配置的话，就会每次随机选一句话发送
+    // 每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "水火既济，阴阳相契，育物新民，参天赞地。",
       "欲行还止，徘徊不已，藏玉怀珠，寸心千里。",
