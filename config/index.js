@@ -41,7 +41,7 @@ export const config = {
       // 所在城市
       city: "杭州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E6%B5%99%E6%B1%9F%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94&srcid=4982"
     }, 
     {
       name: "老婆1", 
@@ -148,7 +148,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "记得买早餐！！"
 
 
 }
