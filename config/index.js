@@ -142,6 +142,8 @@ export const config = {
     {"keyword": "encourage_oneself", contents: "非玄非奥，非浅非深，一个妙道，着意搜寻"}
     // 这样配置的话，就会每次随机选一句话发送
 
-  ]
+  ],
+  LITERARY_PREFERENCE: ""
+  
 
 }
