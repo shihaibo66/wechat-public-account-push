@@ -31,20 +31,20 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "王总",
+      name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "otBft6gGjheUE3XCnWoYn6nY_f9U",
+      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "iN7qeSwsOQbzb1wJnPr2TmTN9638KBJKfEUqQkAhyC0",
+      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
       // 所在省份
-      province: "浙江",
+      province: "广东",
       // 所在城市
-      city: "杭州",
+      city: "肇庆",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E6%B5%99%E6%B1%9F%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94&srcid=4982"
+      openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "1", 
+      name: "老婆1", 
       id: "",
       useTemplateId: "",
       province: "",
@@ -52,7 +52,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "2",
+      name: "老婆2",
       id: "",
       useTemplateId: "",
       province: "",
@@ -60,7 +60,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "3", 
+      name: "老婆3", 
       id: "",
       useTemplateId: "",
       province: "",
@@ -82,7 +82,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "otBft6gGjheUE3XCnWoYn6nY_f9U",
+      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
     }, 
   ],
     
@@ -93,9 +93,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "浙江",
+  PROVINCE: "广东",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "杭州",
+  CITY: "惠州",
 
   /** 重要节日相关 */
 
@@ -105,13 +105,19 @@ export const config = {
    * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
+  FESTIVALS: [
+    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
+    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+  ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字; 
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 3,
+  FESTIVALS_LIMIT: 4,
 
   /** 日期相关 */
 
@@ -139,11 +145,21 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "非玄非奥，非浅非深，一个妙道，着意搜寻"}
+    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
-
+    {"keyword": "lover_prattle", contents: [
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
+    ]},
   ],
+
+  /** 每日一言 */
+
+  // 好文节选的内容类型
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
   LITERARY_PREFERENCE: ""
-  
+
 
 }
