@@ -31,15 +31,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "王总",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
+      id: "otBft6gGjheUE3XCnWoYn6nY_f9U",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "AXj73sk3j3saA0g1wL66uga3Ux_bmIKJyNY6iVwXK1Q",
       // 所在省份
-      province: "广东",
+      province: "浙江",
       // 所在城市
-      city: "肇庆",
+      city: "杭州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -82,7 +82,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "otBft6gGjheUE3XCnWoYn6nY_f9U",
     }, 
   ],
     
@@ -93,9 +93,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "浙江",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "杭州",
 
   /** 重要节日相关 */
 
