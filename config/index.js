@@ -49,7 +49,7 @@ export const config = {
       useTemplateId: "",
       province: "",
       city: "",
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E6%B5%99%E6%B1%9F%E6%9D%AD%E5%B7%9E%E5%A4%A9%E6%B0%94&srcid=4982"
     }, 
     {
       name: "老婆2",
@@ -133,13 +133,14 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "记得买早餐！！"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "水火既济，阴阳相契，育物新民，参天赞地。",
+      "欲行还止，徘徊不已，藏玉怀珠，寸心千里。",
+      "勿谓说话太沈，泥了就不成真，悟出千般奥妙，方识仙道最神。",
+      "止止止，有终有始，似月如花，守成而已。",
+      "六牛耕地，垦开无疆，收成结实，盈禀盈仓。"
     ]},
   ],
 
